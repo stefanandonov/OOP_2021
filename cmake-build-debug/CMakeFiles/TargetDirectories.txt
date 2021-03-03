@@ -1,0 +1,12 @@
+/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles/date.dir
+/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles/drzavi.dir
+/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles/vraboteni.dir
+/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles/students.dir
+/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles/countries.dir
+/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles/start.dir
+/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles/OOP_MK.dir
+/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles/complex.dir
+/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles/datum.dir
+/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles/vector.dir
