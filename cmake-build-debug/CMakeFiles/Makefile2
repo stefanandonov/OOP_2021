@@ -73,6 +73,7 @@ CMAKE_BINARY_DIR = /Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-deb
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/people.dir/all
 all: CMakeFiles/date.dir/all
 all: CMakeFiles/drzavi.dir/all
 all: CMakeFiles/vraboteni.dir/all
@@ -80,6 +81,7 @@ all: CMakeFiles/students.dir/all
 all: CMakeFiles/countries.dir/all
 all: CMakeFiles/start.dir/all
 all: CMakeFiles/OOP_MK.dir/all
+all: CMakeFiles/refExample.dir/all
 all: CMakeFiles/complex.dir/all
 all: CMakeFiles/datum.dir/all
 all: CMakeFiles/vector.dir/all
@@ -92,6 +94,7 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/people.dir/clean
 clean: CMakeFiles/date.dir/clean
 clean: CMakeFiles/drzavi.dir/clean
 clean: CMakeFiles/vraboteni.dir/clean
@@ -99,11 +102,39 @@ clean: CMakeFiles/students.dir/clean
 clean: CMakeFiles/countries.dir/clean
 clean: CMakeFiles/start.dir/clean
 clean: CMakeFiles/OOP_MK.dir/clean
+clean: CMakeFiles/refExample.dir/clean
 clean: CMakeFiles/complex.dir/clean
 clean: CMakeFiles/datum.dir/clean
 clean: CMakeFiles/vector.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/people.dir
+
+# All Build rule for target.
+CMakeFiles/people.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/people.dir/build.make CMakeFiles/people.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/people.dir/build.make CMakeFiles/people.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target people"
+.PHONY : CMakeFiles/people.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/people.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/people.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/people.dir/rule
+
+# Convenience name for target.
+people: CMakeFiles/people.dir/rule
+
+.PHONY : people
+
+# clean rule for target.
+CMakeFiles/people.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/people.dir/build.make CMakeFiles/people.dir/clean
+.PHONY : CMakeFiles/people.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/date.dir
@@ -166,7 +197,7 @@ CMakeFiles/drzavi.dir/clean:
 CMakeFiles/vraboteni.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vraboteni.dir/build.make CMakeFiles/vraboteni.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vraboteni.dir/build.make CMakeFiles/vraboteni.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target vraboteni"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target vraboteni"
 .PHONY : CMakeFiles/vraboteni.dir/all
 
 # Build rule for subdir invocation for target.
@@ -193,7 +224,7 @@ CMakeFiles/vraboteni.dir/clean:
 CMakeFiles/students.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/students.dir/build.make CMakeFiles/students.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/students.dir/build.make CMakeFiles/students.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target students"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target students"
 .PHONY : CMakeFiles/students.dir/all
 
 # Build rule for subdir invocation for target.
@@ -247,7 +278,7 @@ CMakeFiles/countries.dir/clean:
 CMakeFiles/start.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target start"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target start"
 .PHONY : CMakeFiles/start.dir/all
 
 # Build rule for subdir invocation for target.
@@ -293,6 +324,33 @@ OOP_MK: CMakeFiles/OOP_MK.dir/rule
 CMakeFiles/OOP_MK.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_MK.dir/build.make CMakeFiles/OOP_MK.dir/clean
 .PHONY : CMakeFiles/OOP_MK.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/refExample.dir
+
+# All Build rule for target.
+CMakeFiles/refExample.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/refExample.dir/build.make CMakeFiles/refExample.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/refExample.dir/build.make CMakeFiles/refExample.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target refExample"
+.PHONY : CMakeFiles/refExample.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/refExample.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/refExample.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/refExample.dir/rule
+
+# Convenience name for target.
+refExample: CMakeFiles/refExample.dir/rule
+
+.PHONY : refExample
+
+# clean rule for target.
+CMakeFiles/refExample.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/refExample.dir/build.make CMakeFiles/refExample.dir/clean
+.PHONY : CMakeFiles/refExample.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/complex.dir
@@ -355,7 +413,7 @@ CMakeFiles/datum.dir/clean:
 CMakeFiles/vector.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vector.dir/build.make CMakeFiles/vector.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vector.dir/build.make CMakeFiles/vector.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target vector"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target vector"
 .PHONY : CMakeFiles/vector.dir/all
 
 # Build rule for subdir invocation for target.

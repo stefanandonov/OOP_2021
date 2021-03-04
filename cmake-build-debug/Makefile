@@ -131,6 +131,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named people
+
+# Build rule for target.
+people: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 people
+.PHONY : people
+
+# fast build rule for target.
+people/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/people.dir/build.make CMakeFiles/people.dir/build
+.PHONY : people/fast
+
+#=============================================================================
 # Target rules for targets named date
 
 # Build rule for target.
@@ -220,6 +233,19 @@ OOP_MK: cmake_check_build_system
 OOP_MK/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_MK.dir/build.make CMakeFiles/OOP_MK.dir/build
 .PHONY : OOP_MK/fast
+
+#=============================================================================
+# Target rules for targets named refExample
+
+# Build rule for target.
+refExample: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 refExample
+.PHONY : refExample
+
+# fast build rule for target.
+refExample/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/refExample.dir/build.make CMakeFiles/refExample.dir/build
+.PHONY : refExample/fast
 
 #=============================================================================
 # Target rules for targets named complex
@@ -503,6 +529,60 @@ ex1/vector.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vector.dir/build.make CMakeFiles/vector.dir/ex1/vector.c.s
 .PHONY : ex1/vector.c.s
 
+ex2/people.o: ex2/people.cpp.o
+
+.PHONY : ex2/people.o
+
+# target to build an object file
+ex2/people.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/people.dir/build.make CMakeFiles/people.dir/ex2/people.cpp.o
+.PHONY : ex2/people.cpp.o
+
+ex2/people.i: ex2/people.cpp.i
+
+.PHONY : ex2/people.i
+
+# target to preprocess a source file
+ex2/people.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/people.dir/build.make CMakeFiles/people.dir/ex2/people.cpp.i
+.PHONY : ex2/people.cpp.i
+
+ex2/people.s: ex2/people.cpp.s
+
+.PHONY : ex2/people.s
+
+# target to generate assembly for a file
+ex2/people.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/people.dir/build.make CMakeFiles/people.dir/ex2/people.cpp.s
+.PHONY : ex2/people.cpp.s
+
+ex2/refExample.o: ex2/refExample.cpp.o
+
+.PHONY : ex2/refExample.o
+
+# target to build an object file
+ex2/refExample.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/refExample.dir/build.make CMakeFiles/refExample.dir/ex2/refExample.cpp.o
+.PHONY : ex2/refExample.cpp.o
+
+ex2/refExample.i: ex2/refExample.cpp.i
+
+.PHONY : ex2/refExample.i
+
+# target to preprocess a source file
+ex2/refExample.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/refExample.dir/build.make CMakeFiles/refExample.dir/ex2/refExample.cpp.i
+.PHONY : ex2/refExample.cpp.i
+
+ex2/refExample.s: ex2/refExample.cpp.s
+
+.PHONY : ex2/refExample.s
+
+# target to generate assembly for a file
+ex2/refExample.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/refExample.dir/build.make CMakeFiles/refExample.dir/ex2/refExample.cpp.s
+.PHONY : ex2/refExample.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -544,6 +624,8 @@ help:
 	@echo "... date"
 	@echo "... datum"
 	@echo "... drzavi"
+	@echo "... people"
+	@echo "... refExample"
 	@echo "... start"
 	@echo "... students"
 	@echo "... vector"
@@ -575,6 +657,12 @@ help:
 	@echo "... ex1/vector.o"
 	@echo "... ex1/vector.i"
 	@echo "... ex1/vector.s"
+	@echo "... ex2/people.o"
+	@echo "... ex2/people.i"
+	@echo "... ex2/people.s"
+	@echo "... ex2/refExample.o"
+	@echo "... ex2/refExample.i"
+	@echo "... ex2/refExample.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

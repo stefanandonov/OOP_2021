@@ -52,6 +52,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/people.dir/DependInfo.cmake"
   "CMakeFiles/date.dir/DependInfo.cmake"
   "CMakeFiles/drzavi.dir/DependInfo.cmake"
   "CMakeFiles/vraboteni.dir/DependInfo.cmake"
@@ -59,6 +60,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/countries.dir/DependInfo.cmake"
   "CMakeFiles/start.dir/DependInfo.cmake"
   "CMakeFiles/OOP_MK.dir/DependInfo.cmake"
+  "CMakeFiles/refExample.dir/DependInfo.cmake"
   "CMakeFiles/complex.dir/DependInfo.cmake"
   "CMakeFiles/datum.dir/DependInfo.cmake"
   "CMakeFiles/vector.dir/DependInfo.cmake"
