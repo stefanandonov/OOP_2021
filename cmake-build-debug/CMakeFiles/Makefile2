@@ -73,6 +73,7 @@ CMAKE_BINARY_DIR = /Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-deb
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/skilift.dir/all
 all: CMakeFiles/people.dir/all
 all: CMakeFiles/date.dir/all
 all: CMakeFiles/drzavi.dir/all
@@ -94,6 +95,7 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/skilift.dir/clean
 clean: CMakeFiles/people.dir/clean
 clean: CMakeFiles/date.dir/clean
 clean: CMakeFiles/drzavi.dir/clean
@@ -108,6 +110,33 @@ clean: CMakeFiles/datum.dir/clean
 clean: CMakeFiles/vector.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/skilift.dir
+
+# All Build rule for target.
+CMakeFiles/skilift.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/skilift.dir/build.make CMakeFiles/skilift.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/skilift.dir/build.make CMakeFiles/skilift.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target skilift"
+.PHONY : CMakeFiles/skilift.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/skilift.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/skilift.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/skilift.dir/rule
+
+# Convenience name for target.
+skilift: CMakeFiles/skilift.dir/rule
+
+.PHONY : skilift
+
+# clean rule for target.
+CMakeFiles/skilift.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/skilift.dir/build.make CMakeFiles/skilift.dir/clean
+.PHONY : CMakeFiles/skilift.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/people.dir
@@ -197,7 +226,7 @@ CMakeFiles/drzavi.dir/clean:
 CMakeFiles/vraboteni.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vraboteni.dir/build.make CMakeFiles/vraboteni.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vraboteni.dir/build.make CMakeFiles/vraboteni.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target vraboteni"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target vraboteni"
 .PHONY : CMakeFiles/vraboteni.dir/all
 
 # Build rule for subdir invocation for target.
@@ -224,7 +253,7 @@ CMakeFiles/vraboteni.dir/clean:
 CMakeFiles/students.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/students.dir/build.make CMakeFiles/students.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/students.dir/build.make CMakeFiles/students.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target students"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target students"
 .PHONY : CMakeFiles/students.dir/all
 
 # Build rule for subdir invocation for target.
@@ -278,7 +307,7 @@ CMakeFiles/countries.dir/clean:
 CMakeFiles/start.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target start"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target start"
 .PHONY : CMakeFiles/start.dir/all
 
 # Build rule for subdir invocation for target.
@@ -413,7 +442,7 @@ CMakeFiles/datum.dir/clean:
 CMakeFiles/vector.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vector.dir/build.make CMakeFiles/vector.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vector.dir/build.make CMakeFiles/vector.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target vector"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target vector"
 .PHONY : CMakeFiles/vector.dir/all
 
 # Build rule for subdir invocation for target.

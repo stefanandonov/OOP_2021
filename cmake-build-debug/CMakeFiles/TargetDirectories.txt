@@ -1,5 +1,6 @@
 /Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles/skilift.dir
 /Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles/people.dir
 /Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles/date.dir
 /Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles/drzavi.dir

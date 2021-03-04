@@ -52,6 +52,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/skilift.dir/DependInfo.cmake"
   "CMakeFiles/people.dir/DependInfo.cmake"
   "CMakeFiles/date.dir/DependInfo.cmake"
   "CMakeFiles/drzavi.dir/DependInfo.cmake"

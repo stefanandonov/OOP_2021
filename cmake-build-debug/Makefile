@@ -131,6 +131,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named skilift
+
+# Build rule for target.
+skilift: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 skilift
+.PHONY : skilift
+
+# fast build rule for target.
+skilift/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/skilift.dir/build.make CMakeFiles/skilift.dir/build
+.PHONY : skilift/fast
+
+#=============================================================================
 # Target rules for targets named people
 
 # Build rule for target.
@@ -583,6 +596,33 @@ ex2/refExample.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/refExample.dir/build.make CMakeFiles/refExample.dir/ex2/refExample.cpp.s
 .PHONY : ex2/refExample.cpp.s
 
+ex2/skilift.o: ex2/skilift.c.o
+
+.PHONY : ex2/skilift.o
+
+# target to build an object file
+ex2/skilift.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/skilift.dir/build.make CMakeFiles/skilift.dir/ex2/skilift.c.o
+.PHONY : ex2/skilift.c.o
+
+ex2/skilift.i: ex2/skilift.c.i
+
+.PHONY : ex2/skilift.i
+
+# target to preprocess a source file
+ex2/skilift.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/skilift.dir/build.make CMakeFiles/skilift.dir/ex2/skilift.c.i
+.PHONY : ex2/skilift.c.i
+
+ex2/skilift.s: ex2/skilift.c.s
+
+.PHONY : ex2/skilift.s
+
+# target to generate assembly for a file
+ex2/skilift.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/skilift.dir/build.make CMakeFiles/skilift.dir/ex2/skilift.c.s
+.PHONY : ex2/skilift.c.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -626,6 +666,7 @@ help:
 	@echo "... drzavi"
 	@echo "... people"
 	@echo "... refExample"
+	@echo "... skilift"
 	@echo "... start"
 	@echo "... students"
 	@echo "... vector"
@@ -663,6 +704,9 @@ help:
 	@echo "... ex2/refExample.o"
 	@echo "... ex2/refExample.i"
 	@echo "... ex2/refExample.s"
+	@echo "... ex2/skilift.o"
+	@echo "... ex2/skilift.i"
+	@echo "... ex2/skilift.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
