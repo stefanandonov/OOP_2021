@@ -131,6 +131,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named triagolnik
+
+# Build rule for target.
+triagolnik: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 triagolnik
+.PHONY : triagolnik
+
+# fast build rule for target.
+triagolnik/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/triagolnik.dir/build.make CMakeFiles/triagolnik.dir/build
+.PHONY : triagolnik/fast
+
+#=============================================================================
+# Target rules for targets named voved
+
+# Build rule for target.
+voved: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 voved
+.PHONY : voved
+
+# fast build rule for target.
+voved/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/voved.dir/build.make CMakeFiles/voved.dir/build
+.PHONY : voved/fast
+
+#=============================================================================
 # Target rules for targets named skilift
 
 # Build rule for target.
@@ -274,6 +300,19 @@ complex/fast:
 .PHONY : complex/fast
 
 #=============================================================================
+# Target rules for targets named email
+
+# Build rule for target.
+email: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 email
+.PHONY : email
+
+# fast build rule for target.
+email/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/email.dir/build.make CMakeFiles/email.dir/build
+.PHONY : email/fast
+
+#=============================================================================
 # Target rules for targets named datum
 
 # Build rule for target.
@@ -380,32 +419,113 @@ aud2/start.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/aud2/start.cpp.s
 .PHONY : aud2/start.cpp.s
 
-aud2/vraboteni.o: aud2/vraboteni.cpp.o
+aud3/email.o: aud3/email.cpp.o
 
-.PHONY : aud2/vraboteni.o
+.PHONY : aud3/email.o
 
 # target to build an object file
-aud2/vraboteni.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vraboteni.dir/build.make CMakeFiles/vraboteni.dir/aud2/vraboteni.cpp.o
-.PHONY : aud2/vraboteni.cpp.o
+aud3/email.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/email.dir/build.make CMakeFiles/email.dir/aud3/email.cpp.o
+.PHONY : aud3/email.cpp.o
 
-aud2/vraboteni.i: aud2/vraboteni.cpp.i
+aud3/email.i: aud3/email.cpp.i
 
-.PHONY : aud2/vraboteni.i
+.PHONY : aud3/email.i
 
 # target to preprocess a source file
-aud2/vraboteni.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vraboteni.dir/build.make CMakeFiles/vraboteni.dir/aud2/vraboteni.cpp.i
-.PHONY : aud2/vraboteni.cpp.i
+aud3/email.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/email.dir/build.make CMakeFiles/email.dir/aud3/email.cpp.i
+.PHONY : aud3/email.cpp.i
 
-aud2/vraboteni.s: aud2/vraboteni.cpp.s
+aud3/email.s: aud3/email.cpp.s
 
-.PHONY : aud2/vraboteni.s
+.PHONY : aud3/email.s
 
 # target to generate assembly for a file
-aud2/vraboteni.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vraboteni.dir/build.make CMakeFiles/vraboteni.dir/aud2/vraboteni.cpp.s
-.PHONY : aud2/vraboteni.cpp.s
+aud3/email.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/email.dir/build.make CMakeFiles/email.dir/aud3/email.cpp.s
+.PHONY : aud3/email.cpp.s
+
+aud3/triagolnik.o: aud3/triagolnik.cpp.o
+
+.PHONY : aud3/triagolnik.o
+
+# target to build an object file
+aud3/triagolnik.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/triagolnik.dir/build.make CMakeFiles/triagolnik.dir/aud3/triagolnik.cpp.o
+.PHONY : aud3/triagolnik.cpp.o
+
+aud3/triagolnik.i: aud3/triagolnik.cpp.i
+
+.PHONY : aud3/triagolnik.i
+
+# target to preprocess a source file
+aud3/triagolnik.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/triagolnik.dir/build.make CMakeFiles/triagolnik.dir/aud3/triagolnik.cpp.i
+.PHONY : aud3/triagolnik.cpp.i
+
+aud3/triagolnik.s: aud3/triagolnik.cpp.s
+
+.PHONY : aud3/triagolnik.s
+
+# target to generate assembly for a file
+aud3/triagolnik.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/triagolnik.dir/build.make CMakeFiles/triagolnik.dir/aud3/triagolnik.cpp.s
+.PHONY : aud3/triagolnik.cpp.s
+
+aud3/voved.o: aud3/voved.cpp.o
+
+.PHONY : aud3/voved.o
+
+# target to build an object file
+aud3/voved.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/voved.dir/build.make CMakeFiles/voved.dir/aud3/voved.cpp.o
+.PHONY : aud3/voved.cpp.o
+
+aud3/voved.i: aud3/voved.cpp.i
+
+.PHONY : aud3/voved.i
+
+# target to preprocess a source file
+aud3/voved.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/voved.dir/build.make CMakeFiles/voved.dir/aud3/voved.cpp.i
+.PHONY : aud3/voved.cpp.i
+
+aud3/voved.s: aud3/voved.cpp.s
+
+.PHONY : aud3/voved.s
+
+# target to generate assembly for a file
+aud3/voved.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/voved.dir/build.make CMakeFiles/voved.dir/aud3/voved.cpp.s
+.PHONY : aud3/voved.cpp.s
+
+aud3/vraboteni.o: aud3/vraboteni.cpp.o
+
+.PHONY : aud3/vraboteni.o
+
+# target to build an object file
+aud3/vraboteni.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vraboteni.dir/build.make CMakeFiles/vraboteni.dir/aud3/vraboteni.cpp.o
+.PHONY : aud3/vraboteni.cpp.o
+
+aud3/vraboteni.i: aud3/vraboteni.cpp.i
+
+.PHONY : aud3/vraboteni.i
+
+# target to preprocess a source file
+aud3/vraboteni.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vraboteni.dir/build.make CMakeFiles/vraboteni.dir/aud3/vraboteni.cpp.i
+.PHONY : aud3/vraboteni.cpp.i
+
+aud3/vraboteni.s: aud3/vraboteni.cpp.s
+
+.PHONY : aud3/vraboteni.s
+
+# target to generate assembly for a file
+aud3/vraboteni.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vraboteni.dir/build.make CMakeFiles/vraboteni.dir/aud3/vraboteni.cpp.s
+.PHONY : aud3/vraboteni.cpp.s
 
 ex1/complex.o: ex1/complex.c.o
 
@@ -664,12 +784,15 @@ help:
 	@echo "... date"
 	@echo "... datum"
 	@echo "... drzavi"
+	@echo "... email"
 	@echo "... people"
 	@echo "... refExample"
 	@echo "... skilift"
 	@echo "... start"
 	@echo "... students"
+	@echo "... triagolnik"
 	@echo "... vector"
+	@echo "... voved"
 	@echo "... vraboteni"
 	@echo "... aud1/datum.o"
 	@echo "... aud1/datum.i"
@@ -680,9 +803,18 @@ help:
 	@echo "... aud2/start.o"
 	@echo "... aud2/start.i"
 	@echo "... aud2/start.s"
-	@echo "... aud2/vraboteni.o"
-	@echo "... aud2/vraboteni.i"
-	@echo "... aud2/vraboteni.s"
+	@echo "... aud3/email.o"
+	@echo "... aud3/email.i"
+	@echo "... aud3/email.s"
+	@echo "... aud3/triagolnik.o"
+	@echo "... aud3/triagolnik.i"
+	@echo "... aud3/triagolnik.s"
+	@echo "... aud3/voved.o"
+	@echo "... aud3/voved.i"
+	@echo "... aud3/voved.s"
+	@echo "... aud3/vraboteni.o"
+	@echo "... aud3/vraboteni.i"
+	@echo "... aud3/vraboteni.s"
 	@echo "... ex1/complex.o"
 	@echo "... ex1/complex.i"
 	@echo "... ex1/complex.s"

@@ -1,5 +1,7 @@
 /Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles/triagolnik.dir
+/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles/voved.dir
 /Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles/skilift.dir
 /Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles/people.dir
 /Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles/date.dir
@@ -11,5 +13,6 @@
 /Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles/OOP_MK.dir
 /Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles/refExample.dir
 /Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles/complex.dir
+/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles/email.dir
 /Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles/datum.dir
 /Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles/vector.dir

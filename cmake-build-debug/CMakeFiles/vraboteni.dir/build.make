@@ -77,27 +77,27 @@ include CMakeFiles/vraboteni.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/vraboteni.dir/flags.make
 
-CMakeFiles/vraboteni.dir/aud2/vraboteni.cpp.o: CMakeFiles/vraboteni.dir/flags.make
-CMakeFiles/vraboteni.dir/aud2/vraboteni.cpp.o: ../aud2/vraboteni.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/vraboteni.dir/aud2/vraboteni.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vraboteni.dir/aud2/vraboteni.cpp.o -c /Users/stefanandonov/CLionProjects/OOP/OOP_MK/aud2/vraboteni.cpp
+CMakeFiles/vraboteni.dir/aud3/vraboteni.cpp.o: CMakeFiles/vraboteni.dir/flags.make
+CMakeFiles/vraboteni.dir/aud3/vraboteni.cpp.o: ../aud3/vraboteni.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/vraboteni.dir/aud3/vraboteni.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vraboteni.dir/aud3/vraboteni.cpp.o -c /Users/stefanandonov/CLionProjects/OOP/OOP_MK/aud3/vraboteni.cpp
 
-CMakeFiles/vraboteni.dir/aud2/vraboteni.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vraboteni.dir/aud2/vraboteni.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/stefanandonov/CLionProjects/OOP/OOP_MK/aud2/vraboteni.cpp > CMakeFiles/vraboteni.dir/aud2/vraboteni.cpp.i
+CMakeFiles/vraboteni.dir/aud3/vraboteni.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vraboteni.dir/aud3/vraboteni.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/stefanandonov/CLionProjects/OOP/OOP_MK/aud3/vraboteni.cpp > CMakeFiles/vraboteni.dir/aud3/vraboteni.cpp.i
 
-CMakeFiles/vraboteni.dir/aud2/vraboteni.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vraboteni.dir/aud2/vraboteni.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/stefanandonov/CLionProjects/OOP/OOP_MK/aud2/vraboteni.cpp -o CMakeFiles/vraboteni.dir/aud2/vraboteni.cpp.s
+CMakeFiles/vraboteni.dir/aud3/vraboteni.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vraboteni.dir/aud3/vraboteni.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/stefanandonov/CLionProjects/OOP/OOP_MK/aud3/vraboteni.cpp -o CMakeFiles/vraboteni.dir/aud3/vraboteni.cpp.s
 
 # Object files for target vraboteni
 vraboteni_OBJECTS = \
-"CMakeFiles/vraboteni.dir/aud2/vraboteni.cpp.o"
+"CMakeFiles/vraboteni.dir/aud3/vraboteni.cpp.o"
 
 # External object files for target vraboteni
 vraboteni_EXTERNAL_OBJECTS =
 
-vraboteni: CMakeFiles/vraboteni.dir/aud2/vraboteni.cpp.o
+vraboteni: CMakeFiles/vraboteni.dir/aud3/vraboteni.cpp.o
 vraboteni: CMakeFiles/vraboteni.dir/build.make
 vraboteni: CMakeFiles/vraboteni.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable vraboteni"

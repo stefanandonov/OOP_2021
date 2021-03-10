@@ -12,8 +12,12 @@ add_executable(date ex1/date.c)
 
 add_executable(countries ex1/countries.c)
 add_executable(start aud2/start.cpp)
-add_executable(vraboteni aud2/vraboteni.cpp)
+add_executable(vraboteni aud3/vraboteni.cpp)
 add_executable(drzavi aud2/drzavi.cpp)
 add_executable(refExample ex2/refExample.cpp)
 add_executable(people ex2/people.cpp)
 add_executable(skilift ex2/skilift.c)
+add_executable(voved aud3/voved.cpp)
+add_executable(triagolnik aud3/triagolnik.cpp)
+
+add_executable(email aud3/email.cpp)

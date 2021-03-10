@@ -37,6 +37,90 @@
 					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="triagolnik">
+				<Option output="/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/triagolnik" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/Makefile&quot;  VERBOSE=1 triagolnik"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="triagolnik/fast">
+				<Option output="/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/triagolnik" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/Makefile&quot;  VERBOSE=1 triagolnik/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="voved">
+				<Option output="/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/voved" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/Makefile&quot;  VERBOSE=1 voved"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="voved/fast">
+				<Option output="/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/voved" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/Makefile&quot;  VERBOSE=1 voved/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="skilift">
 				<Option output="/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/skilift" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug"/>
@@ -499,6 +583,48 @@
 					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="email">
+				<Option output="/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/email" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/Makefile&quot;  VERBOSE=1 email"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="email/fast">
+				<Option output="/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/email" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/Makefile&quot;  VERBOSE=1 email/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="datum">
 				<Option output="/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug/datum" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/stefanandonov/CLionProjects/OOP/OOP_MK/cmake-build-debug"/>
@@ -593,7 +719,16 @@
 		<Unit filename="/Users/stefanandonov/CLionProjects/OOP/OOP_MK/aud2/start.cpp">
 			<Option target="start"/>
 		</Unit>
-		<Unit filename="/Users/stefanandonov/CLionProjects/OOP/OOP_MK/aud2/vraboteni.cpp">
+		<Unit filename="/Users/stefanandonov/CLionProjects/OOP/OOP_MK/aud3/email.cpp">
+			<Option target="email"/>
+		</Unit>
+		<Unit filename="/Users/stefanandonov/CLionProjects/OOP/OOP_MK/aud3/triagolnik.cpp">
+			<Option target="triagolnik"/>
+		</Unit>
+		<Unit filename="/Users/stefanandonov/CLionProjects/OOP/OOP_MK/aud3/voved.cpp">
+			<Option target="voved"/>
+		</Unit>
+		<Unit filename="/Users/stefanandonov/CLionProjects/OOP/OOP_MK/aud3/vraboteni.cpp">
 			<Option target="vraboteni"/>
 		</Unit>
 		<Unit filename="/Users/stefanandonov/CLionProjects/OOP/OOP_MK/ex1/complex.c">

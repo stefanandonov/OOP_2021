@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/stefanandonov/CLionProjects/OOP/OOP_MK/aud2/vraboteni.cpp
+/Users/stefanandonov/CLionProjects/OOP/OOP_MK/aud3/vraboteni.cpp
 iostream
+-
+cstring
+-
+string.h
 -
 
