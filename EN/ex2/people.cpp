@@ -26,6 +26,8 @@ Employee createEmployee() {
 }
 
 struct Company {
+    Company() {}
+
     char name[100];
     Employee manager;
     Employee employees[100];
