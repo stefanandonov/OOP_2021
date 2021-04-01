@@ -42,16 +42,16 @@ public:
         delete[] content;
     }
 
-    bool eq(const WebPage &p) {
+    bool operator ==(const WebPage &p) {
         return strcmp(this->url, p.url) == 0;
     }
-
-    void print() {
-        cout << url << endl << content << endl;
+    bool operator !=(const WebPage &p) {
+        return strcmp(this->url, p.url) != 0;
     }
 
-    void setUrl (char * newUrl) {
-        strcpy(this->url, newUrl);
+    friend ostream & operator << (ostream & out, const WebPage & wp) {
+        out << wp.url << endl << wp.content << endl;
+        return out;
     }
 };
 
@@ -94,17 +94,17 @@ public:
         delete[] webPages;
     }
 
-    bool contains(const WebPage &p) {
+    bool contains (const WebPage &p) {
         for (int i = 0; i < size; i++)
-            if (webPages[i].eq(p))
+            if (webPages[i]==p)
                 return true;
 
         return false;
     }
 
-    void addPage(const WebPage & p) {
+    WebServer & operator +=(const WebPage &p) {
         if (contains(p))
-            return;
+            return *this;
 
         WebPage *tmp = new WebPage[size + 1];
         for (int i = 0; i < size; i++)
@@ -112,14 +112,15 @@ public:
         tmp[size++] = p;
         delete[] webPages;
         webPages = tmp;
+        return *this;
     }
 
 
-    void deletePage(const WebPage &p) {
+    WebServer & operator -=(const WebPage &p) {
         if (contains(p)) {
             WebPage *tmp = new WebPage[size - 1];
             for (int i = 0, j = 0; i < size; i++) {
-                if (!webPages[i].eq(p))
+                if (webPages[i]!=p)
                     tmp[j++] = webPages[i];
             }
             --size;
@@ -127,13 +128,16 @@ public:
             webPages = tmp;
 
         }
+        return *this;
     }
 
-    void print () {
-        cout<<name<<endl;
-        for (int i=0;i<size;i++) {
-            webPages[i].print();
+    friend ostream & operator << (ostream &out, const WebServer & ws) {
+        out<<ws.name<<endl;
+        for (int i=0;i<ws.size;i++) {
+            out<<ws.webPages[i];
         }
+        return out;
+       // return out;
     }
 
 
@@ -141,20 +145,19 @@ public:
 
 int main() {
     WebPage w;
-    w.print();
+    cout<<w;
     WebPage w1("https://facebookc.com", "FACEBOOK");
     WebPage w3("https://twitter.com", "Twitter");
     WebPage w4(w1);
 
     WebServer ws;
-    ws.addPage(w);
-    ws.addPage(w1);
-    ws.addPage(w3);
-    ws.addPage(w4);
-    ws.print();
+    ws+=w;
+    ws+=w1;
+    ws+=w3;
+    ws+=w4;
+    cout<<ws;
     cout<<endl;
-    ws.deletePage(w3);
-
-    ws.print();
+    ws-=w3;
+    cout<<ws;
     return 0;
 }
