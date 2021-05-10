@@ -6,6 +6,15 @@
 
 using namespace std;
 
+class IndexOutOfBoundsException {
+    int idx;
+public:
+    IndexOutOfBoundsException(int idx) : idx(idx) {}
+    void printMessage () {
+        cout<<"Index ["<<idx<<"] is out of bounds"<<endl;
+    }
+};
+
 class Array {
 private:
     int *array;
@@ -107,7 +116,9 @@ public:
         return out;
     }
 
-    int &operator[](int idx) {
+    int &operator[](int idx) { //10 elementi -> 0,1,2,3,4,5,6,7,8,9
+        if (idx < 0 || idx >= size)
+            throw IndexOutOfBoundsException(idx);
         return array[idx];
     }
 
@@ -139,12 +150,17 @@ int main() {
     cout << a;
     cout << a1;
 
-    a1[10] = 10;
-    cout << a1;
+    try {
+        a1[101] = 10;
+        cout << a1;
+    }
+    catch (IndexOutOfBoundsException & e) {
+        e.printMessage();
+    }
 
-    cout<<(a==a1)<<endl; //0 false
-    Array a2 (a);
-    cout<<(a==a2); // 1 true
+    cout << (a == a1) << endl; //0 false
+    Array a2(a);
+    cout << (a == a2); // 1 true
 
     return 0;
 }

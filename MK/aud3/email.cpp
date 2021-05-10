@@ -7,6 +7,20 @@
 
 using namespace std;
 
+bool valid(char sender[50]);
+
+class EmailNotValidException {
+    char email[50];
+public:
+    EmailNotValidException(char * email){
+        strcpy(this->email, email);
+    }
+
+    void printMessage() {
+        cout<<"Email "<<email<<" is not valid!"<<endl;
+    }
+};
+
 class EmailMessage {
 private:
     char sender[50];
@@ -18,6 +32,13 @@ public:
                  char *_receiver = "stefan@students.finki.ukim.mk",
                  char *_subject = "Disciplinska kazna",
                  char *_body = "Kaznet si! Koj saka neka cestita!") {
+        if (!valid(_sender)) {
+            throw EmailNotValidException(_sender);
+        }
+
+        if (!valid(_receiver)) {
+            throw EmailNotValidException(_receiver);
+        }
         strcpy(sender, _sender);
         strcpy(receiver, _receiver);
         strcpy(subject, _subject);
@@ -36,7 +57,7 @@ public:
     }
 };
 
-bool valid(char sender[50]);
+
 
 int main() {
     char sender[50];
@@ -45,16 +66,19 @@ int main() {
     char body[300];
     cin.getline(sender, 50);
     cin.getline(receiver, 50);
-    if (!valid(sender) || !valid(receiver)) {
-//        cout << "sender or receiver has an invalid email address" << endl;
-        return 0;
-    }
+//    if (!valid(sender) || !valid(receiver)) {
+////        cout << "sender or receiver has an invalid email address" << endl;
+//        return 0;
+//    }
 
     cin.getline(subject, 50);
     cin.getline(body, 300);
-
-    EmailMessage emailMessage(sender, receiver, subject, body);
-    emailMessage.show();
+    try {
+        EmailMessage emailMessage(sender, receiver, subject, body);
+        emailMessage.show();
+    } catch (EmailNotValidException & e) {
+        e.printMessage();
+    }
     return 0;
 }
 
